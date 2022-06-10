@@ -37,6 +37,8 @@ typedef struct server_s {
     int port;
 } server_t;
 
+
+
 int error_handling(int ac, char *port);
 char *get_hostname(void);
 server_t *init_server(char *ip_addr, int port);
